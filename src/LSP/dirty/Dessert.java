@@ -1,10 +1,10 @@
 package LSP.dirty;
 
-public class Pastry {
+public class Dessert {
     private String name;
 
-    public Pastry() {};
-    public Pastry(String name) {
+    public Dessert() {};
+    public Dessert(String name) {
         this.name = name;
     }
 

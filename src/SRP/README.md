@@ -18,6 +18,7 @@ This example simulates a **coffee shop workflow**.
     - Notifying the user
     - Cleaning the machine
 - While functional, this design is **tightly coupled**: any change in one area (e.g., notifications) requires modifying the same class, making maintenance harder.
+- This is similar to a casual vending machine: everything is bundled into a single unit.
 
 ### Clean Version
 We refactored the design to respect SRP:
@@ -28,6 +29,7 @@ We refactored the design to respect SRP:
 - `Cleaner` → Cleans the machine
 
 Each class now has a **single responsibility**, making the system more modular and easier to maintain.
+This is analogous to a full-fledged coffee shop: multiple services work in harmony, each with a clear role.
 
 ---
 

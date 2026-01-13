@@ -1,14 +1,14 @@
 package LSP.dirty;
 
-public class FrozenPastry extends Pastry {
-    public FrozenPastry(String name) {
+public class IceCream extends Dessert {
+    public IceCream(String name) {
         super(name);
     }
 
     @Override
     public void bake() {
         throw new UnsupportedOperationException(
-                "Cannot bake frozen pastry " + getName() + " directly!"
+                "Cannot bake " + getName()
         );
     }
 }

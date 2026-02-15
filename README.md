@@ -15,9 +15,9 @@ This repository contains examples of the five SOLID design principles of object-
     - Clean: Each course implements a `Course` interface; scheduler works with the interface, allowing new courses to be added without changing existing code.
 
 - **Liskov Substitution Principle (LSP)**  
-  *Example:* Pastry baking.
-    - Dirty: Subclass `FrozenPastry` breaks the `bake()` method.
-    - Clean: Only bakeable pastries implement the `Bakeable` interface; all pastries can be used interchangeably in baking workflows.
+  *Example:* Dessert production.
+    - Dirty: Subclass `IceCream` breaks the `bake()` method.
+    - Clean: Only bakeable desserts implement the `Bakeable` interface; all desserts can be used interchangeably in baking workflows.
 
 - **Interface Segregation Principle (ISP)**  
   *Example:* Pet interaction.
